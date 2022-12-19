@@ -1,0 +1,44 @@
+h1{
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 28px !important;
+  color: brown;
+  background-color: blanchedalmond;
+  box-shadow: 5px 5px rgba(0, 0, 0, .1);
+  margin: 10px 0px 30px 0px !important;
+}
+img
+{
+  width: 100%;
+  transition: .6s;
+  box-shadow: 5px 10px 3px rgba(0, 0, 0, .1);
+}
+img:hover
+{
+  transform: translateY(10px);
+}
+ul{
+  display: flex;
+  padding-left: 10px;
+  background-color: bisque;
+  justify-content: center;
+  align-items: center;
+}
+ul li
+{
+  list-style: none;
+}
+ul li a{
+  color: rgb(108, 76, 76);
+  text-decoration: none;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: block;
+  font-weight: 700;
+  font-size: 25px;
+  transition: .10s;
+}
+ul li:hover > a{
+  color: brown;
+}
